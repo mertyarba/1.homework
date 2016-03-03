@@ -99,6 +99,9 @@
 
 
 ?>
+
+</br>	<a href="table.php">table<a/>
+
 <h2> Don't Be Late </h2>
 
 <form method="get">
