@@ -1,5 +1,44 @@
 <?php
+	//require another php file
+	//../../ means go to folders back
+	require_once("../../config.php");
 	
+	
+	//******************************
+	//******** SAVE TO DB **********
+	//******************************
+		
+		
+		//connection with username and password
+		//access username from config
+		//echo $db_username;
+		
+		//1 server name
+		//2 username
+		//3 password
+		//4 database
+		
+		$mysql = new mysqli("localhost", $db_username, $db_password, "webpr2016_mertyarba");
+		
+		$stmt = $mysql->prepare("INSERT INTO homework(location, time, punishment, name)VALUES (?, ?, ?, ?)");
+		
+		//We are replacing question marks with values
+		//s - string, date or smth that is based on characters and numbers
+		//i - integer, number
+		//d - decimal, float
+		
+		//for each question mark its type with one letter
+		$stmt->bind_param("ssss", $_GET["location"], $_GET["time"], $_GET["punishment"], $_GET["name"]);
+		
+		//echo error
+		echo $mysql->error;
+		
+		//save
+		if ($stmt->execute()){
+			echo "saved successfully";
+		}else{
+			echo $stmt->error;
+		}
 	
 	//*****************
 	//TO validation
