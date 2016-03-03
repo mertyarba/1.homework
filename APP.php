@@ -105,7 +105,7 @@
 <h2> Don't Be Late </h2>
 
 <form method="get">
-	<label for="location">Location* <label><br>
+	<label for="location">Location* <br><label><br>
 	<input type="text" name="location"><br>
 	
 	<label for="time">Time* <label><br>
@@ -126,7 +126,7 @@
 		<img src="http://images.sodahead.com/polls/0/0/2/8/6/2/0/0/9/105487930_jigsaw___i_want_to_play_a_game_by_texasrampage_d31e2oc.jpeg">
 	
 	
-	
+	<br>Set a meeting point with your friends and whoever is late, gets the punishment they deserve!<br>
 
 
 <form>
