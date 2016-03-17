@@ -149,8 +149,8 @@
 		<div class="row">
 			<div class="col-md-3 col-sm-6">
 				<div class="form-group">
-					<label for="to">Name: </label>
-					<input name="to" id="to" type="text" class="form-control">
+					<label for="name">Name: </label>
+					<input name="name" id="to" type="text" class="form-control">
 				</div>
 			</div>
 		</div>
@@ -158,18 +158,8 @@
 		<div class="row">
 		<div class="col-md-3 col-sm-6">
 				<div class="form-group">
-					<label for="message">Location: </label>
-					<input name="message" id="message" type="text" class="form-control">
-				</div>
-			</div>
-		
-		</div>
-		
-		<div class="row">
-		<div class="col-md-3 col-sm-6">
-				<div class="form-group">
-					<label for="message">Time: </label>
-					<input name="message" id="message" type="text" class="form-control">
+					<label for="location">Location: </label>
+					<input name="location" id="message" type="text" class="form-control">
 				</div>
 			</div>
 		
@@ -178,8 +168,18 @@
 		<div class="row">
 		<div class="col-md-3 col-sm-6">
 				<div class="form-group">
-					<label for="message">Punishment: </label>
-					<input name="message" id="message" type="text" class="form-control">
+					<label for="time">Time: </label>
+					<input name="time" id="message" type="text" class="form-control">
+				</div>
+			</div>
+		
+		</div>
+		
+		<div class="row">
+		<div class="col-md-3 col-sm-6">
+				<div class="form-group">
+					<label for="punishment">Punishment: </label>
+					<input name="punishment" id="message" type="text" class="form-control">
 				</div>
 			</div>
 		

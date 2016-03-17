@@ -54,8 +54,8 @@
 		$table_html .= "<tr>";
 		$table_html .= "<th>ID</th>";
 		$table_html .= "<th>Time</th>";
-		$table_html .= "<th>Created</th>";
-		$table_html .="<th>Delete</th>";
+		$table_html .= "<th>Punishment</th>";
+		$table_html .="<th>Name</th>";
 	$table_html .= "</tr>";
 	
 	// GET RESULT 
