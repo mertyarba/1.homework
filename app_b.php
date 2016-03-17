@@ -1,5 +1,6 @@
 <?php require_once("header.php"); ?>
 
+
 	<?php
 	//require another php file
 	//../../ means go to folders back
@@ -102,6 +103,7 @@
 
 ?>
 
+
 	<nav class="navbar navbar-default">
 	  <div class="container-fluid">
 		<!-- Brand and toggle get grouped for better mobile display -->
@@ -141,35 +143,58 @@
 
 	<div class="container">
 
+		<h1> DON'T BE LATE </h1>
+		
+	<form>
+		<div class="row">
+			<div class="col-md-3 col-sm-6">
+				<div class="form-group">
+					<label for="to">Name: </label>
+					<input name="to" id="to" type="text" class="form-control">
+				</div>
+			</div>
+		</div>
+		
+		<div class="row">
+		<div class="col-md-3 col-sm-6">
+				<div class="form-group">
+					<label for="message">Location: </label>
+					<input name="message" id="message" type="text" class="form-control">
+				</div>
+			</div>
+		
+		</div>
+		
+		<div class="row">
+		<div class="col-md-3 col-sm-6">
+				<div class="form-group">
+					<label for="message">Time: </label>
+					<input name="message" id="message" type="text" class="form-control">
+				</div>
+			</div>
+		
+		</div>
+		
+		<div class="row">
+		<div class="col-md-3 col-sm-6">
+				<div class="form-group">
+					<label for="message">Punishment: </label>
+					<input name="message" id="message" type="text" class="form-control">
+				</div>
+			</div>
+		
+		</div>
+		
+		<div class="row">
+			<div class="col-md-3 col-sm-6">
+			<input class="btn btn-success hidden-xs btn-md-3" type="submit" value="Let the game begin!">
+			<input class="btn btn-success visible-xs-inline btn-block" type="submit" value="Let the game begin!!!">
+		</div>
+		
+		
 
-
-</br>	<a href="table.php">table<a/>
-
-<h2> Don't Be Late </h2>
-
-<form method="get">
-	<label for="location">Location* <br><label><br>
-	<input type="text" name="location"><br>
-	
-	<label for="time">Time* <label><br>
-	<input type="text" name="time"><br>
-	
-	<label for="punishment">Punishment* <label><br>
-	<input type="text" name="punishment"><br>
-	
-	<label for="name">Name* <label><br>
-	<input type="text" name="name"><br>
-	
-	<input type="submit" value="Let The Game Begin!">
-	
-	<br>
-	
-	</br>
-	
-	
-	
-	
-	<br>Set a meeting point with your friends and whoever is late, gets the punishment they deserve!<br>
-
-
-<form>
+  
+	</div>
+  
+  </body>
+</html>
