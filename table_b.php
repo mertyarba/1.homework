@@ -124,7 +124,7 @@
 
 	<div class="container">
 
-		<h1> This is the Table page </h1>
+		<h1> Time Table </h1>
 
 	<?php echo $table_html; ?>
   
