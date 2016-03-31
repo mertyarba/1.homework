@@ -95,7 +95,7 @@
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
 		  </button>
-		  <a class="navbar-brand" href="#">Brand</a>
+		  <a class="navbar-brand" href="#">Let's Play A Game</a>
 		</div>
 
 		<!-- Collect the nav links, forms, and other content for toggling -->
@@ -105,14 +105,14 @@
 			
 			<li>
 				<a href="app_b.php">
-					App page
+					Game
 				</a>
 			</li>
 			
 			
 			<li class="active" >
 				<a href="table_b.php">
-					Table
+					Time Table
 				</a>
 			</li>
 			
